@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Tabs to Markdown",
+  "name": "Tabs as Markdown List",
   "version": "1.0.0",
   "description": "現在のFirefoxウィンドウのタブをMarkdownリストとして出力します。",
   "icons": {
@@ -25,7 +25,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "tabs-to-markdown@taku3wzr",
+      "id": "tabs-as-markdown-list@taku3wzr",
       "data_collection_permissions": {
         "required": [
           "none"

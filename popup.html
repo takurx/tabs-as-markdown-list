@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tabs to Markdown</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>Tabs to Markdown</h1>
+    <span id="count"></span>
+  </header>
+
+  <textarea
+    id="output"
+    aria-label="Markdown出力"
+    readonly
+  ></textarea>
+
+  <div class="buttons">
+    <button id="refresh" type="button">更新</button>
+    <button id="copy" type="button">コピー</button>
+  </div>
+
+  <p id="status" role="status"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

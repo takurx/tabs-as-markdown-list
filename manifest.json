@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Tabs to Markdown",
+  "version": "1.0.0",
+  "description": "現在のFirefoxウィンドウのタブをMarkdownリストとして出力します。",
+  "permissions": [
+    "tabs",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_title": "タブをMarkdownで出力",
+    "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tabs-to-markdown@example.local"
+    }
+  }
+}
